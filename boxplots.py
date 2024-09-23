@@ -73,7 +73,7 @@ plt.show()
 
 import pandas as pd
 import ast
-df = pd.read_csv("C:\\Users\\limyu\\Google Drive\\CNN vs VIT\\df_results1.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/yd145763/ECTC2024/refs/heads/main/df_results.csv")
 
 cnn_train_loss_list = []
 for i in range(len(df)):
